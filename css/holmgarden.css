@@ -4,7 +4,7 @@
 	padding: 0;
 }
 #branding .image {
-	background: url(../images/branding.jpg);
+	background: url(/images/branding.jpg);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -28,7 +28,7 @@
 	color: #888888;
 }
 #content {
-	background: #FFFFFF url(../images/page.jpg) no-repeat 2px 176px;
+	background: #FFFFFF url(/images/page.jpg) no-repeat 2px 176px;
 	width: 724px; 
 	margin: 0 auto;
 	text-align: left;
@@ -50,7 +50,7 @@
 }
 #navigation {
 	position: absolute;
-	background: url(../images/navigation.jpg);
+	background: url(/images/navigation.jpg);
 	top: 136px;
 	width: 720px;
 	height: 40px;
@@ -79,7 +79,7 @@
 }
 #page {
 	margin: 70px 60px 30px 60px;
-	background: url(../images/koi.jpg) no-repeat bottom right;
+	background: url(/images/koi.jpg) no-repeat bottom right;
 	min-height: 320px;
 }
 
@@ -110,16 +110,16 @@
 	color: #FF0000;
 }
 .masters #branding .image,.martial #branding .image {
-	background: url(../images/training_branding.jpg);
+	background: url(/images/training_branding.jpg);
 }
 .masters #content,.martial #content {
-	background: #FFFFFF url(../images/training_page.jpg) no-repeat 2px 176px;
+	background: #FFFFFF url(/images/training_page.jpg) no-repeat 2px 176px;
 }
 .masters #images img {
 	border: 0px solid #FFFFFF;
 }
 .masters #navigation,.martial #navigation {
-	background: url(../images/training_navigation.jpg);
+	background: url(/images/training_navigation.jpg);
 }
 a:active {
 	color: #FF0000;
@@ -138,12 +138,12 @@ acronym {
 	font-variant: inherit;
 }
 blockquote {
-	background: url(../images/closequote.gif) bottom right no-repeat;
+	background: url(/images/closequote.gif) bottom right no-repeat;
 	font-style: italic;
 }
 blockquote p {
 	padding: 0 20px;
-	background: url(../images/openquote.gif) top left no-repeat;
+	background: url(/images/openquote.gif) top left no-repeat;
 	margin: 8px 0;
 	text-indent: 0;
 }
@@ -170,7 +170,7 @@ h4 {
 }
 html,body {
 	text-align: center;
-	background: #D2E0E1 url(../images/body_bg.gif);
+	background: #D2E0E1 url(/images/body_bg.gif);
 }
 li {
 	line-height: 140%;
@@ -220,7 +220,7 @@ ul {
 }
 ul li {
 	padding: 0 0 0 20px;
-	background: url(../images/bullet.gif) no-repeat;
+	background: url(/images/bullet.gif) no-repeat;
 	position: relative;
 	/* IE Bug fix;
 	stops background disappearing;
