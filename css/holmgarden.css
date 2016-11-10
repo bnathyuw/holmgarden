@@ -1,0 +1,281 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+#branding .image {
+	background: url(../images/branding.jpg);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 720px;
+	height: 136px;
+}
+#branding {
+	height: 136px;
+	margin: 0 2px;
+	position: relative;
+	z-index: 2;
+}
+#clear {
+	clear: both;
+}
+#footer {
+	border-top: solid 1px #888888;
+	margin: 0 2px;
+	text-align: center;
+	padding: 7px 0;
+	color: #888888;
+}
+#content {
+	background: #FFFFFF url(../images/page.jpg) no-repeat 2px 176px;
+	width: 724px; 
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+	overflow: visible;
+}
+#images {
+	float: left;
+	width: 200px;
+}
+#images img {
+	margin: 0 0 10px;
+	border: 1px solid #3A616B;
+}
+#intro {
+	font-style: italic;
+	margin: 20px 0;
+	text-indent: 0;
+}
+#navigation {
+	position: absolute;
+	background: url(../images/navigation.jpg);
+	top: 136px;
+	width: 720px;
+	height: 40px;
+	margin: 0 2px;
+	left: 0;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+#navigation a {
+	text-decoration: none;
+	margin: 0;
+}
+#navigation li {
+	display: inline;
+	list-style: none;
+	margin: 0 7px;
+	padding: 0;
+	background: none;
+}
+#navigation ul{
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#page {
+	margin: 70px 60px 30px 60px;
+	background: url(../images/koi.jpg) no-repeat bottom right;
+	min-height: 320px;
+}
+
+#skipNav {
+	position: absolute;
+	left: -99999999px;
+}
+#tagline {
+	font-size: 24px;
+	margin: 0 40px 30px;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+}
+#text #intro {
+	margin: auto;
+}
+#text {
+	float: left;
+	width: 380px;
+	margin: 0 20px 0 0;
+}
+.thisPage {
+	text-decoration: underline;
+	color: #3A616B;
+}
+.alert {
+	color: #FF0000;
+}
+.masters #branding .image,.martial #branding .image {
+	background: url(../images/training_branding.jpg);
+}
+.masters #content,.martial #content {
+	background: #FFFFFF url(../images/training_page.jpg) no-repeat 2px 176px;
+}
+.masters #images img {
+	border: 0px solid #FFFFFF;
+}
+.masters #navigation,.martial #navigation {
+	background: url(../images/training_navigation.jpg);
+}
+a:active {
+	color: #FF0000;
+}
+a:hover {
+	color: #3A616B;
+	text-decoration: underline;
+}
+a:link {
+	color: #3A616B;
+}
+a:visited {
+	color: #3A616B;
+}
+acronym {
+	font-variant: inherit;
+}
+blockquote {
+	background: url(../images/closequote.gif) bottom right no-repeat;
+	font-style: italic;
+}
+blockquote p {
+	padding: 0 20px;
+	background: url(../images/openquote.gif) top left no-repeat;
+	margin: 8px 0;
+	text-indent: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+h2 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 0 8px;
+}
+h3 {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 16px 0 8px;
+}
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 8px 0;
+}
+html,body {
+	text-align: center;
+	background: #D2E0E1 url(../images/body_bg.gif);
+}
+li {
+	line-height: 140%;
+}
+ol {
+	margin: 8px 20px;
+}
+p {
+	line-height: 140%;
+	text-indent: 20px;
+}
+p.first {
+	text-indent: 0;
+}
+q { 
+	font-style: italic;
+}
+q:before,q:after {
+	content: '';
+}
+select.short {
+	width: 100px;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	font-size: 13px;
+	border: 1px solid #E9F0F0;
+	padding: 4px;
+	vertical-align: top;
+}
+td p {
+	margin: 0;
+	text-indent: 0;
+}
+th {
+	font-size: 13px;
+	text-align: left;
+	border: 1px solid #E9F0F0;
+	padding: 4px;
+	vertical-align: top;
+}
+ul {
+	margin: 8px 0;
+	list-style: none;
+}
+ul li {
+	padding: 0 0 0 20px;
+	background: url(../images/bullet.gif) no-repeat;
+	position: relative;
+	/* IE Bug fix;
+	stops background disappearing;
+	otherwise redundant */ }
+
+#wang {
+	position: relative;
+}
+#wang * {
+	padding-right: 210px;
+}
+#wang * * {
+	padding-right: 0;
+}
+#wang img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+}
+#wang div#book
+{
+	position: absolute;
+	width: 200px;
+	padding: 0;
+	bottom: 0;
+	right: 0;
+}
+#wang div#book img
+{
+	position: relative;
+}
+#wang div#book p
+{
+	text-indent: 0;
+	margin: .5em 0;
+	font-weight: bold;
+}
+#wang div#book p.details
+{
+	font-size: .8em;
+}
+#pao {
+	position: relative;
+}
+
+#pao * {
+	padding-left: 210px;
+}
+#pao * * {
+	padding-left: 0;
+}
+#pao img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+}

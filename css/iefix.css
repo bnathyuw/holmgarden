@@ -1,0 +1,11 @@
+@charset "utf-8";
+#page {
+	padding-top: 70px;
+}
+
+#page {
+	height: 320px;
+}
+* html form legend {
+	left: -8px;
+}

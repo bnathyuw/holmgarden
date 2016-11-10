@@ -1,0 +1,13 @@
+@charset "utf-8";
+#page {
+	padding-top: 70px;
+}
+fieldset.date label.error, fieldset.select label.error {
+	left: 422px;	
+}
+fieldset legend span {
+	left: -7px;
+}
+fieldset.date legend span, fieldset.select legend span {
+	left: 143px;
+}
