@@ -68,7 +68,6 @@ p.text label.error, p.select label.error, p.text .form-error, p.select .form-err
 }
 fieldset.date label.error, fieldset.select label.error, fieldset.date .form-error, fieldset.select .form-error {
 	position: absolute;
-	width: 140px;
 	top: 4px;
 	left: 272px;	
 }
